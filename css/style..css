@@ -1,0 +1,78 @@
+.carouselMargin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.carousel-inner > .carousel-item > img{
+    height: 800px;
+}
+.cards-margin{
+ margin: 30px; 
+  margin-bottom: 10px;
+  /* height: 200px; */
+}
+.cards-margin img {
+  height: 350px;
+    
+}
+.cards-dest-margin{
+  margin: 30px;
+}
+.cards-dest-margin > img{
+  height: 800px;
+}
+.dest-kollam{
+margin: 30px;
+}
+
+.pathan-margin{
+  margin: 30px;
+}
+.form-margin{
+  margin-top: 200px;
+}
+.form-signup-margin{
+  margin: 20px;
+}
+.background-img{
+  margin: auto;
+}
+
+/* form */
+
+.login{
+  float: left;
+  /* border: 2px solid red; */
+  background-color: white;
+  height: 25em;
+  margin-top: 5%;
+  margin-right: 2%;
+  margin-left: 45%;
+  padding: 30px;
+  
+}
+
+.login h2{
+  text-align: center;
+}
+.login input{
+  height: 1.5em;
+}
+.login #login-button{
+  width: 100%;
+  height: 1.8em;
+  color: white;
+  background-color: dodgerblue;
+  border: 1px solid dodgerblue;
+}
+/* destination removal of color of anchor tag */
+.card-title{
+  text-decoration: none;
+  color: black;
+  text-shadow: 40;
+
+}
+/* signup page */
+
+.foot p {
+  margin-left: 40%;
+}

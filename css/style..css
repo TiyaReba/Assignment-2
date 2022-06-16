@@ -1,3 +1,9 @@
+/* navbar */
+.navbar{
+  color: greenyellow;
+}
+
+
 .carouselMargin{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -5,10 +11,8 @@
 .carousel-inner > .carousel-item > img{
     height: 800px;
 }
-.cards-margin{
- margin: 30px; 
-  margin-bottom: 10px;
-  /* height: 200px; */
+.card{
+margin: 15px;
 }
 .cards-margin img {
   height: 350px;
@@ -68,6 +72,11 @@ margin: 30px;
 .card-title{
   text-decoration: none;
   color: black;
+  font-weight: bold;
+  font-size: large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style:initial;
+
   text-shadow: 40;
 
 }
@@ -75,4 +84,26 @@ margin: 30px;
 
 .foot p {
   margin-left: 40%;
+}
+/* tvm title */
+#title{
+  text-align: center;
+}
+#para{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  font-size: large;
+}
+#title2{
+  text-align: center;
+}
+.card-text{
+  text-align: justify;
+}
+.card{
+  height: min-content;
+}
+.card-img-top{
+  height:min-content;
 }

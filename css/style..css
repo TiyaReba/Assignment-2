@@ -47,11 +47,12 @@ margin: 30px;
   float: left;
   /* border: 2px solid red; */
   background-color: white;
-  height: 25em;
+  height: 30em;
   margin-top: 10%;
   margin-right: 2%;
   margin-left: 43%;
   padding: 30px;
+  width: auto;
   
   
 }
@@ -110,4 +111,11 @@ margin: 30px;
 }
 .background{
   margin: auto;
+}
+
+/* password strength meter */
+.displayBadge{
+  margin-top: 5%; 
+  display: none; 
+  text-align :center;
 }

@@ -124,29 +124,40 @@
     </div> -->
  
     <!-- <div class="shadow p-3 mb-5 bg-white rounded"> -->
-      <form action="#" class="login">
+      <form action="./login.html" class="login" onsubmit="return validate();">
         <h2> Sign Up </h2>
         <br>
         <div class="login-cont">
             <label> Username </label>
             <br>
-            <input type="text" placeholder="Type your Username">
+            <input type="text" placeholder="Type your Email Id" id="email">
             </div>
-            <br>
+            <label for="error" id="error"></label>
+            <div class="login-cont">
+              <label> Phone No </label>
+              <br>
+              <input type="text" placeholder="Type your Phone Number" id="phnum">
+              </div>
+              <label for="error" id="error2"></label>
+              <br>
             <div class="login-cont">
             <label> Create password  </label>
             <br>
-            <input type="password" placeholder="Type your password">
+            <input type="password" placeholder="Type your password" id="pwd">
         </div>
+        <span id="StrengthDisp" class="badge displayBadge">Weak</span>
+        <!-- <label for="error" id="error3"></label> -->
         <br>
         <label> Confirm Password </label>
             <br>
-            <input type="text" placeholder="Re-Type your Password">
+            <input type="password" placeholder="Re-Type your Password" id="pwd2" >
             <br>
             </div>
+            <span id='message'></span>
+            <!-- <label for="error" id="error4"></label> -->
             <br>
         <div >
-           <button id="login-button">Sign In</button>
+           <button id="login-button" a >Sign Up</button>
         </div>
         <br>
         <!-- <div class="login-misc">
@@ -159,6 +170,9 @@
     <!-- <footer class="foot">
       <p> Copyrights reserved @2022</p>
     </footer> -->
+
+
+    <script src="./js/signup.js"></script>
       <!-- javascript poppers only -->
 
       

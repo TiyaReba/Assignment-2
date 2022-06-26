@@ -63,7 +63,15 @@ margin: 30px;
 .login input{
   height: 1.5em;
 }
-.login #login-button{
+ #Login-button{
+  width: 100%;
+  height: 1.8em;
+  color: white;
+  background-color: dodgerblue;
+  border: 1px solid dodgerblue;
+}
+
+#SignUp-button{
   width: 100%;
   height: 1.8em;
   color: white;
